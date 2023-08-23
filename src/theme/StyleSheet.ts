@@ -1,4 +1,4 @@
-import { Breakpoints } from '@skynexui/responsive_stylesheet';
+import { Breakpoints } from '@skynexui/responsive_stylesheet/dist';
 
 // Generics
 type ResponsiveProperty<Type> = Partial<Record<Breakpoints, Type>>;
